@@ -1,0 +1,12 @@
+absorptive_capacity_simple: |
+  Evaluate the following company website text regarding the four dimensions of absorptive capacity. Use a simple scale of 0-3 for each dimension:
+
+  - Identification (0-3): Degree of activities for identifying external knowledge
+  - Assimilation (0-3): Degree of processes for processing and integrating knowledge
+  - Transformation (0-3): Degree of combination/adaptation of existing and new knowledge
+  - Exploitation (0-3): Degree of commercial utilization of transformed knowledge
+
+  For each dimension, provide a rating and extract the specific text passages that support your rating.
+
+  COMPANY TEXT:
+  {text}

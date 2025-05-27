@@ -1,0 +1,9 @@
+# - llama3.2:8b
+# - llama3.1:8b
+- mistral:7b
+# - qwen2.5:7b
+# - gemma2:9b
+# - phi3:14b
+- llama3.2:3b
+# - mistral:7b-instruct
+- qwen2.5:3b
