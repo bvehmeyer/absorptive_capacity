@@ -30,8 +30,18 @@ docker run -d --gpus=all -v ollama:/root/.ollama -p 11434:11434 --name ollama ol
 ollama pull llama3.2:3b    
 ollama pull mistral:7b     
 ollama pull qwen2.5:7b   
+```
 
-### 4. Adjust Configuration Files
+### 4. Prepare Your Data
+
+**Create the data folder and add your CSV file:**
+
+Copy your web texts file to: data/web_texts.csv
+
+
+**Expected file path:** `data/web_texts.csv`
+
+### 5. Adjust Configuration Files
 
 **models.yaml:**
 ```yaml
